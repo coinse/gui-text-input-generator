@@ -2,11 +2,11 @@ primary_category_BoW = {
     # functional categories (for general apps)
     'search': ['search', 'find', 'pattern'],
     'code': ['card', 'id', 'code', 'coupon'],
-    'auth_code': ['auth', 'confirm', 'verify', 'sms', 'email'],
-    'label': ['label', 'title', 'name'],
+    'auth_code': ['auth', 'confirmation', 'verify', 'sms', 'email', 'code'],
+    'label': ['label', 'title'],
     'description': ['description', 'content', 'notes', 'comment'],
     'tag': ['tag'],
-    'profile': ['email', 'phone', 'name', 'password', 'username', 'country', 'countrycode', 'cc'],
+    'profile': ['person', 'email', 'phone', 'password', 'username', 'country', 'countrycode', 'organization'],
     'datetime': ['date', 'time', 'year', 'month'],
     'location': ['location', 'region', 'city', 'country'],
     'numerical': ['ratio', 'rate', 'percentage', 'amount', 'count', 'balance', 'gram', 'enum', 'number'],
@@ -24,9 +24,9 @@ secondary_category_BoW = {
         'tv_show': ['show', 'tv', 'series'],
         'web': ['address', 'url', 'web'],
         'movie': ['movie', 'film'],
-        'podcast': ['podcast'],
-        'car_model': ['car', 'model'],
-        'location': ['location'],
+        'podcast': ['podcast', 'feed'],
+        'car_model': ['car', 'model', 'series'],
+        'location': ['location', 'where', 'place'],
         'megazine': ['megazine'],
         'music': ['music', 'song'],
         'video': ['video'],
@@ -35,9 +35,9 @@ secondary_category_BoW = {
         'book': ['book'],
         'country': ['country'],
         'country_code': ['country', 'code'],
-        'app': ['app', 'game', 'theme'],
+        'app': ['appstore', 'app', 'game'],
         'iot_device': ['device', 'brand'],
-        'storage': ['file', 'image', 'video', 'audio', 'document', 'storage']
+        'storage': ['file', 'document', 'storage', 'library']
     },
     'code': {
         'card_id': ['card', 'id', 'barcode'],
@@ -57,7 +57,7 @@ secondary_category_BoW = {
         'phone': ['phone', 'mobile', 'phonenumber'],
         'url': ['url', 'http', 'https'],
         'username': ['username', 'user', 'userid', 'nickname'],
-        'job': ['job'],
+        'job': ['job', 'organization'],
         'company': ['company'],
         'department': ['department'],
         'samsung_account': ['samsung', 'account'],
@@ -92,12 +92,12 @@ secondary_category_BoW = {
         'album': ['album'],
         'song': ['song'],
         'genre': ['genre'],
-        'playlist_url': ['playlist_url'],
+        'playlist_url': ['playlist', 'url', 'youtube'],
         'number': ['number']
     },
     'messenger': {
         'recipient': ['recipient'],
-        'message': ['message'],
+        'message': ['message', 'conversation'],
     }
 }
 

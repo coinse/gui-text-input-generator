@@ -48,6 +48,7 @@
                 0.702798572058479
             ]
         ],
+        "concrete_category": "storage",
         "predicted_inputs": []
     },
     "data/samsung_internal/My Files/state_2022-11-02_100555195131.json:search_src_text": {
@@ -99,6 +100,7 @@
                 0.7000231761485338
             ]
         ],
+        "concrete_category": "storage",
         "predicted_inputs": []
     },
     "data/samsung_internal/SmartThings/state_2022-11-01_183300373138.json:edit_text_name": {
@@ -150,6 +152,7 @@
                 0.6749028228223324
             ]
         ],
+        "concrete_category": "name",
         "predicted_inputs": []
     },
     "data/samsung_internal/SmartThings/state_2022-11-01_175008826290.json:inviteAccountText": {
@@ -201,6 +204,7 @@
                 0.5982673267523448
             ]
         ],
+        "concrete_category": "samsung_account",
         "predicted_inputs": []
     },
     "data/samsung_internal/SmartThings/state_2022-11-01_175242663868.json:search_src_text": {
@@ -252,6 +256,7 @@
                 0.7105639328559239
             ]
         ],
+        "concrete_category": "iot_device",
         "predicted_inputs": []
     },
     "data/samsung_internal/Messages/state_2022-11-01_125025142665.json:search_src_text": {
@@ -303,6 +308,7 @@
                 0.758464053273201
             ]
         ],
+        "concrete_category": "storage",
         "predicted_inputs": []
     },
     "data/samsung_internal/Messages/state_2022-11-01_172019083263.json:recipients_editor_to": {
@@ -333,6 +339,7 @@
             ]
         ],
         "secondary_categories_ranked": [],
+        "concrete_category": "auth_code",
         "predicted_inputs": []
     },
     "data/samsung_internal/Messages/state_2022-11-01_172019083263.json:message_edit_text": {
@@ -372,6 +379,7 @@
                 0.5255843717604876
             ]
         ],
+        "concrete_category": "message",
         "predicted_inputs": []
     },
     "data/samsung_internal/Galaxy Store/state_2022-11-01_184025384712.json:name": {
@@ -423,6 +431,7 @@
                 0.6214516336719195
             ]
         ],
+        "concrete_category": "name",
         "predicted_inputs": []
     },
     "data/samsung_internal/Galaxy Store/state_2022-11-01_184025384712.json:phoneNumber": {
@@ -466,6 +475,7 @@
                 0.6634436113138993
             ]
         ],
+        "concrete_category": "enum",
         "predicted_inputs": []
     },
     "data/samsung_internal/Galaxy Store/state_2022-11-01_183635589137.json:coupon_edit": {
@@ -505,6 +515,7 @@
                 0.6600649344424406
             ]
         ],
+        "concrete_category": "coupon_code",
         "predicted_inputs": []
     },
     "data/samsung_internal/Galaxy Store/state_2022-11-01_184121181885.json:search_src_text": {
@@ -556,6 +567,7 @@
                 0.7239970949788889
             ]
         ],
+        "concrete_category": "app",
         "predicted_inputs": []
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173146572934.json:search_src_text": {
@@ -607,6 +619,7 @@
                 0.758464053273201
             ]
         ],
+        "concrete_category": "storage",
         "predicted_inputs": []
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:forCursorEdit": {
@@ -658,6 +671,7 @@
                 0.5785657304028671
             ]
         ],
+        "concrete_category": "job",
         "predicted_inputs": []
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:nameEdit": {
@@ -709,6 +723,7 @@
                 0.4944368128975232
             ]
         ],
+        "concrete_category": "name",
         "predicted_inputs": []
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:editOrganizationTitle": {
@@ -739,6 +754,7 @@
             ]
         ],
         "secondary_categories_ranked": [],
+        "concrete_category": "label",
         "predicted_inputs": []
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:editOrganizationDepartment": {
@@ -790,6 +806,7 @@
                 0.5867572985589504
             ]
         ],
+        "concrete_category": "department",
         "predicted_inputs": []
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:editOrganizationCompany": {
@@ -841,6 +858,7 @@
                 0.563618698467811
             ]
         ],
+        "concrete_category": "company",
         "predicted_inputs": []
     },
     "data/samsung_internal/Settings/state_2022-11-02_095831401950.json:search_src_text": {
@@ -892,6 +910,7 @@
                 0.7565957879026731
             ]
         ],
+        "concrete_category": "storage",
         "predicted_inputs": []
     },
     "data/samsung_internal/Samsung Members/state_2022-11-02_101955202341.json:inputEditText": {
@@ -922,6 +941,7 @@
             ]
         ],
         "secondary_categories_ranked": [],
+        "concrete_category": "description",
         "predicted_inputs": []
     },
     "data/samsung_internal/Samsung Members/state_2022-11-02_101839943819.json:nickname": {
@@ -973,6 +993,7 @@
                 0.7555457030733427
             ]
         ],
+        "concrete_category": "username",
         "predicted_inputs": []
     },
     "data/samsung_internal/Gallery/state_2022-11-01_172316447819.json:search_src_text": {
@@ -1024,6 +1045,7 @@
                 0.7218822029729685
             ]
         ],
+        "concrete_category": "storage",
         "predicted_inputs": []
     },
     "data/samsung_internal/Samsung Internet/state_2022-11-01_184749322308.json:location_bar_edit_text": {
@@ -1071,10 +1093,11 @@
                 0.6934913843870163
             ],
             [
-                "iot_device",
-                0.7433424287786087
+                "country_code",
+                0.7237251549959183
             ]
         ],
+        "concrete_category": "web",
         "predicted_inputs": []
     },
     "data/samsung_internal/Clock/state_2022-11-01_184421020236.json:worldclock_search_map_txt_find": {
@@ -1118,6 +1141,7 @@
                 0.6046186039845148
             ]
         ],
+        "concrete_category": "country",
         "predicted_inputs": []
     },
     "data/samsung_internal/Clock/state_2022-11-01_184255456720.json:numberpicker_input": {
@@ -1161,6 +1185,7 @@
                 0.7446516714990139
             ]
         ],
+        "concrete_category": "enum",
         "predicted_inputs": []
     },
     "data/samsung_internal/Clock/state_2022-11-01_184255456720.json:alarm_name": {
@@ -1212,6 +1237,7 @@
                 0.6781884375959635
             ]
         ],
+        "concrete_category": "name",
         "predicted_inputs": []
     },
     "data/samsung_internal/Clock/state_2022-11-01_184455299444.json:hour": {
@@ -1263,6 +1289,7 @@
                 0.7687548676816126
             ]
         ],
+        "concrete_category": "hour",
         "predicted_inputs": []
     },
     "data/samsung_internal/Clock/state_2022-11-01_184455299444.json:minute": {
@@ -1314,6 +1341,7 @@
                 0.741551266827931
             ]
         ],
+        "concrete_category": "minute",
         "predicted_inputs": []
     },
     "data/samsung_internal/Clock/state_2022-11-01_184455299444.json:second": {
@@ -1365,6 +1393,7 @@
                 0.7157466846207777
             ]
         ],
+        "concrete_category": "second",
         "predicted_inputs": []
     },
     "data/samsung_internal/Clock/state_2022-11-01_184455299444.json:preset_name": {
@@ -1416,6 +1445,7 @@
                 0.7313454933464527
             ]
         ],
+        "concrete_category": "name",
         "predicted_inputs": []
     },
     "data/samsung_internal/Calendar/state_2022-11-01_172842215734.json:title": {
@@ -1446,6 +1476,7 @@
             ]
         ],
         "secondary_categories_ranked": [],
+        "concrete_category": "label",
         "predicted_inputs": []
     },
     "data/samsung_internal/Calendar/state_2022-11-01_172842215734.json:location": {
@@ -1489,6 +1520,7 @@
                 0.7457410258551439
             ]
         ],
+        "concrete_category": "location",
         "predicted_inputs": []
     },
     "data/samsung_internal/Calendar/state_2022-11-01_172842215734.json:note_text": {
@@ -1519,6 +1551,7 @@
             ]
         ],
         "secondary_categories_ranked": [],
+        "concrete_category": "description",
         "predicted_inputs": []
     }
 }

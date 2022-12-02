@@ -51,8 +51,11 @@ if __name__ == "__main__":
     argparser.add_argument("-o", "--output-path", help="Path to save the result files", default="result/text_input_pred_samsung.json")
     argparser.add_argument("--predict-value", help="If set, predict textfield values instead of category", action="store_true")
     argparser.add_argument("--sample-value-file", "-f", help="Path to sample value pool dictionary", default="data/value_pool.json")
+    argparser.add_argument("--max-rank", help="Top-N categories ranked to be shown", default=5)
     
     args = argparser.parse_args()
+
+    MAX_RANK = args.max_rank
 
     result_dict = {}
 
@@ -66,7 +69,7 @@ if __name__ == "__main__":
         
         for tf in tfs:
             k = tf['textfield_path']
-            primary_rank_result = rank_categories_JIT(tf['textfield_info'], tf['view_tree'], category_BoW=primary_category_BoW, prune=True, prune_count=3, weight_g=0.0, extend_local_ctx=True)[:MAX_RANK]
+            primary_rank_result = rank_categories_JIT(tf['textfield_info'], tf['view_tree'], category_BoW=primary_category_BoW, prune=True, prune_count=3, weight_g=0.3, extend_local_ctx=True)[:MAX_RANK]
 
             pcat = primary_rank_result[0][0]
             concrete_category = None
@@ -87,15 +90,17 @@ if __name__ == "__main__":
                 'secondary_categories_ranked': secondary_rank_result
             }
 
-            assert concrete_category in value_pool
-
             if args.predict_value:
+                assert concrete_category in value_pool
+
                 texts = []
                 if tf['app_name'] in value_pool[concrete_category]:
                     texts = value_pool[concrete_category][tf['app_name']]
                 else:
                     texts = value_pool[concrete_category]['general']
                 
+                result_dict[k]['concrete_category'] = concrete_category
+
                 result_dict[k]['predicted_inputs'] = texts
 
         json.dump(result_dict, open(args.output_path, 'w'), indent=4)

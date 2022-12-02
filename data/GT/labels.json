@@ -90,7 +90,7 @@
       [
         "numerical",
         [
-          "amount"
+          "ratio"
         ]
       ]
     ],
@@ -101,7 +101,7 @@
       [
         "numerical",
         [
-          "amount"
+          "ratio"
         ]
       ]
     ],
@@ -169,6 +169,13 @@
           "country",
           "country_code"
         ]
+      ],
+      [
+        "profile",
+        [
+          "country",
+          "country_code"
+        ]
       ]
     ],
     "sample_text": "algeria, 213"
@@ -211,11 +218,11 @@
       [
         "profile",
         [
-          "phone"
+          "country_code"
         ]
       ]
     ],
-    "sample_text": "010-4940-4583"
+    "sample_text": "82"
   },
   "data/OSS/textfield_contexts/WhatsApp_1/verify_sms_code_input": {
     "GT_categories": [
@@ -242,7 +249,7 @@
       [
         "search",
         [
-          "music"
+          "music", "storage"
         ]
       ]
     ],
@@ -533,6 +540,12 @@
         [
           "age"
         ]
+      ],
+      [
+        "datetime",
+        [
+          "year"
+        ]
       ]
     ],
     "sample_text": "30"
@@ -566,6 +579,10 @@
         [
           "song"
         ]
+      ],
+      [
+        "label",
+        []
       ]
     ],
     "sample_text": "love dive"
@@ -575,7 +592,8 @@
       [
         "search",
         [
-          "music"
+          "music",
+          "storage"
         ]
       ]
     ],
@@ -588,6 +606,11 @@
         [
           "number"
         ]
+      ],
+      ["numerical",
+        [
+          "enum"
+        ]
       ]
     ],
     "sample_text": "2"
@@ -598,6 +621,11 @@
         "music",
         [
           "number"
+        ]
+      ],
+      ["numerical",
+        [
+          "enum"
         ]
       ]
     ],
@@ -700,6 +728,12 @@
         "numerical",
         [
           "amount"
+        ]
+      ],
+      [
+        "ledger",
+        [
+          "payee"
         ]
       ]
     ],
@@ -835,9 +869,9 @@
   "data/samsung_internal/SmartThings/state_2022-11-01_175242663868.json:search_src_text": {
     "GT_categories": [
       [
-        "device_profile",
+        "search",
         [
-          "model_name"
+          "iot_device"
         ]
       ]
     ],
@@ -848,8 +882,14 @@
       [
         "messenger",
         [
-          "recipent",
+          "recipient",
           "message"
+        ]
+      ],
+      [
+        "search",
+        [
+          "storage"
         ]
       ]
     ],
@@ -860,7 +900,7 @@
       [
         "messenger",
         [
-          "recipent"
+          "recipient"
         ]
       ]
     ],
@@ -871,7 +911,7 @@
       [
         "messenger",
         [
-          "recipient"
+          "message"
         ]
       ]
     ],
@@ -1003,7 +1043,7 @@
       [
         "device_profile",
         [
-          "model_name"
+          "serial_number"
         ]
       ]
     ],
@@ -1046,6 +1086,12 @@
     "GT_categories": [
       [
         "search",
+        [
+          "country"
+        ]
+      ],
+      [
+        "location",
         [
           "country"
         ]
