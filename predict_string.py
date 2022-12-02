@@ -10,6 +10,7 @@ from load_textfield_data import load_textfields_from_state
 
 
 MAX_RANK = 5
+PRUNE_COUNT = 3
 
 
 def rank_categories_by_features(textfield_tokens, local_context, global_context, category_BoW=primary_category_BoW, prune=False, prune_count=3, weight_g=0.0, extend_local_ctx=True):
@@ -51,11 +52,15 @@ if __name__ == "__main__":
     argparser.add_argument("-o", "--output-path", help="Path to save the result files", default="result/text_input_pred_samsung.json")
     argparser.add_argument("--predict-value", help="If set, predict textfield values instead of category", action="store_true")
     argparser.add_argument("--sample-value-file", "-f", help="Path to sample value pool dictionary", default="data/value_pool.json")
-    argparser.add_argument("--max-rank", help="Top-N categories ranked to be shown", default=5)
+    argparser.add_argument("--max-rank", help="Top-N categories ranked to be shown", type=int, default=5)
+    argparser.add_argument("--pruning-count", help="Pruning count when calculating pairwise distance", type=int, default=3)
+    argparser.add_argument("--w-glob-primary", help="weight to the global context when predicting primary category", type=float, default=0.3)
+    argparser.add_argument("--w-glob-secondary", help="weight to the global context when predicting secondary category", type=float, default=0.5)
     
     args = argparser.parse_args()
 
     MAX_RANK = args.max_rank
+    PRUNE_COUNT = args.pruning_count
 
     result_dict = {}
 
@@ -69,7 +74,7 @@ if __name__ == "__main__":
         
         for tf in tfs:
             k = tf['textfield_path']
-            primary_rank_result = rank_categories_JIT(tf['textfield_info'], tf['view_tree'], category_BoW=primary_category_BoW, prune=True, prune_count=3, weight_g=0.3, extend_local_ctx=True)[:MAX_RANK]
+            primary_rank_result = rank_categories_JIT(tf['textfield_info'], tf['view_tree'], category_BoW=primary_category_BoW, prune=True, prune_count=PRUNE_COUNT, weight_g=args.w_glob_primary, extend_local_ctx=True)[:MAX_RANK]
 
             pcat = primary_rank_result[0][0]
             concrete_category = None
@@ -80,7 +85,7 @@ if __name__ == "__main__":
                 secondary_rank_result = []
 
             else:
-                secondary_rank_result = rank_categories_JIT(tf['textfield_info'], tf['view_tree'], category_BoW=secondary_category_BoW[pcat], prune=True, prune_count=3, weight_g=0.5, extend_local_ctx=True)[:MAX_RANK]
+                secondary_rank_result = rank_categories_JIT(tf['textfield_info'], tf['view_tree'], category_BoW=secondary_category_BoW[pcat], prune=True, prune_count=PRUNE_COUNT, weight_g=args.w_glob_secondary, extend_local_ctx=True)[:MAX_RANK]
                 scat = secondary_rank_result[0][0]
                 concrete_category = scat
 

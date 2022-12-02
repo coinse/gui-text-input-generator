@@ -18,4 +18,17 @@ To predict category of a textfield and possible input texts in it, we provide th
 > python predict_string.py -i data/samsung_internal -o result/text_input_pred_samsung.json --predict-value --sample-value-file data/value_pool.json
 ```
 
-The above script collects Android screen state files (with filenames like `state_*.json`) contained in the `data/samsung_internal` directory, and predict text input categories & values for the contained textfields in the screen. The result is saved into `result/text_input_pred_samsung.json`.
+The above script collects Android screen state files (with filenames like `state_*.json`) contained in the `data/samsung_internal` directory (refer to the existing state files in the directory), and predict text input categories & values for the contained textfields in the screen. The result is saved into `result/text_input_pred_samsung.json`.
+
+
+## Customization
+
+### Using custom value pool
+
+If you want to use your own value pool for each concrete category (i.e., primary category with no belonging secondary categories, or the final predicted secondary category), you can modify `data/value_pool.json`, or create your own one in the form of JSON file. Then, execute the script `predict_string.py` with the option `--sample-value-file <your_value_pool_file_path>`.
+
+### Changing pruning count, or weights of the global context
+There are some options in `predict_string.py`, such as `--pruning-count`, `--w-glob-primary`, and `--w-glob-secondary` that can be tuned. You can decide on how much emphasize the global context when predicting primary/secondary categories. For more detail, refer to the description of each option.
+
+## Maintainer
+Contact to @greenmonn (juyeon.yoon@kaist.ac.kr) if you have any problem or question about this repository.

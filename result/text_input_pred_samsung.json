@@ -7,29 +7,29 @@
         "primary_categories_ranked": [
             [
                 "search",
-                0.4863956930736701
-            ],
-            [
-                "auth_code",
-                0.6583546698093414
-            ],
-            [
-                "profile",
-                0.6705582936604817
+                0.4639335094640652
             ],
             [
                 "description",
-                0.6713110655546188
+                0.6606723263859748
+            ],
+            [
+                "auth_code",
+                0.6642065477867921
             ],
             [
                 "messenger",
-                0.6748228818178177
+                0.6751116275787353
+            ],
+            [
+                "profile",
+                0.6828954105575878
             ]
         ],
         "secondary_categories_ranked": [
             [
                 "storage",
-                0.3175597401956717
+                0.4450510715444883
             ],
             [
                 "video",
@@ -49,7 +49,15 @@
             ]
         ],
         "concrete_category": "storage",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "filename",
+            "father",
+            "hi",
+            "love dive",
+            "drug store",
+            "sound",
+            "20221201"
+        ]
     },
     "data/samsung_internal/My Files/state_2022-11-02_100555195131.json:search_src_text": {
         "best": [
@@ -59,29 +67,29 @@
         "primary_categories_ranked": [
             [
                 "search",
-                0.4863956930736701
-            ],
-            [
-                "auth_code",
-                0.6583546698093414
-            ],
-            [
-                "profile",
-                0.6705582936604817
+                0.45947310167054334
             ],
             [
                 "description",
-                0.6713110655546188
+                0.6561661273241043
+            ],
+            [
+                "auth_code",
+                0.6632476759453614
             ],
             [
                 "messenger",
-                0.6748228818178177
+                0.6751116275787353
+            ],
+            [
+                "profile",
+                0.6828954105575878
             ]
         ],
         "secondary_categories_ranked": [
             [
                 "storage",
-                0.3175597401956717
+                0.4368847707907359
             ],
             [
                 "video",
@@ -101,59 +109,64 @@
             ]
         ],
         "concrete_category": "storage",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "filename",
+            "father",
+            "hi",
+            "love dive",
+            "drug store",
+            "sound",
+            "20221201"
+        ]
     },
     "data/samsung_internal/SmartThings/state_2022-11-01_183300373138.json:edit_text_name": {
         "best": [
-            "profile",
-            "name"
+            "location",
+            "location"
         ],
         "primary_categories_ranked": [
             [
+                "location",
+                0.4413842002550761
+            ],
+            [
                 "profile",
-                0.3778290053208669
+                0.5544105907281239
             ],
             [
                 "label",
-                0.42127861082553864
-            ],
-            [
-                "location",
-                0.4507155517737071
+                0.6117231398820877
             ],
             [
                 "description",
-                0.6131110787391663
+                0.6152079224586486
             ],
             [
                 "auth_code",
-                0.6269909590482712
+                0.6213804975152015
             ]
         ],
         "secondary_categories_ranked": [
             [
-                "name",
-                0.4085150534907977
+                "location",
+                0.23313652724027634
             ],
             [
-                "username",
-                0.5144275228182474
+                "city",
+                0.6549953718980153
             ],
             [
-                "phone",
-                0.6309833750128746
-            ],
-            [
-                "email",
-                0.6495631237824758
-            ],
-            [
-                "job",
-                0.6749028228223324
+                "country",
+                0.7161355788509051
             ]
         ],
-        "concrete_category": "name",
-        "predicted_inputs": []
+        "concrete_category": "location",
+        "predicted_inputs": [
+            "Daejeon",
+            "meeting room",
+            "room 1",
+            "daejeon city hall"
+        ]
     },
     "data/samsung_internal/SmartThings/state_2022-11-01_175008826290.json:inviteAccountText": {
         "best": [
@@ -163,11 +176,11 @@
         "primary_categories_ranked": [
             [
                 "profile",
-                0.33169123033682507
+                0.2779720182220141
             ],
             [
                 "auth_code",
-                0.36204751332600915
+                0.33439049124717707
             ],
             [
                 "ledger",
@@ -175,11 +188,11 @@
             ],
             [
                 "messenger",
-                0.5475721607605617
+                0.5485413501660029
             ],
             [
                 "description",
-                0.6194990575313568
+                0.6313250496983528
             ]
         ],
         "secondary_categories_ranked": [
@@ -205,7 +218,11 @@
             ]
         ],
         "concrete_category": "samsung_account",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "samsung2@samsung.com",
+            "samsung3@samsung.com",
+            "myaccount@samsung.com"
+        ]
     },
     "data/samsung_internal/SmartThings/state_2022-11-01_175242663868.json:search_src_text": {
         "best": [
@@ -215,23 +232,23 @@
         "primary_categories_ranked": [
             [
                 "search",
-                0.45040737092494965
+                0.426839904487133
             ],
             [
                 "profile",
-                0.5938801964124044
+                0.6330897351106008
+            ],
+            [
+                "datetime",
+                0.6680190409223238
             ],
             [
                 "label",
-                0.6449292103449504
-            ],
-            [
-                "messenger",
-                0.6506504987676938
+                0.6708165366202592
             ],
             [
                 "description",
-                0.6552509963512421
+                0.6770051538944244
             ]
         ],
         "secondary_categories_ranked": [
@@ -241,59 +258,63 @@
             ],
             [
                 "storage",
-                0.6622429477671783
+                0.6815576180815697
             ],
             [
                 "app",
-                0.6872237324714661
+                0.6834489579002063
+            ],
+            [
+                "location",
+                0.6845607484380405
             ],
             [
                 "web",
                 0.7030567998687426
-            ],
-            [
-                "location",
-                0.7105639328559239
             ]
         ],
         "concrete_category": "iot_device",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "Google Home",
+            "Yeelight",
+            "Amazon Echo"
+        ]
     },
     "data/samsung_internal/Messages/state_2022-11-01_125025142665.json:search_src_text": {
         "best": [
             "search",
-            "storage"
+            "web"
         ],
         "primary_categories_ranked": [
             [
                 "search",
-                0.4863956930736701
+                0.4556399515519539
             ],
             [
                 "auth_code",
-                0.6583546698093414
-            ],
-            [
-                "profile",
-                0.6705582936604817
+                0.6840224934120973
             ],
             [
                 "description",
-                0.6713110655546188
+                0.6893851913511753
             ],
             [
                 "messenger",
-                0.6748228818178177
+                0.7095211319625377
+            ],
+            [
+                "profile",
+                0.7201212835808594
             ]
         ],
         "secondary_categories_ranked": [
             [
-                "storage",
-                0.6980827661852042
-            ],
-            [
                 "web",
                 0.7136156621078651
+            ],
+            [
+                "storage",
+                0.7294937806824844
             ],
             [
                 "news",
@@ -308,39 +329,56 @@
                 0.758464053273201
             ]
         ],
-        "concrete_category": "storage",
-        "predicted_inputs": []
+        "concrete_category": "web",
+        "predicted_inputs": [
+            "www.naver.com",
+            "www.google.com",
+            "How to make an apple pie"
+        ]
     },
     "data/samsung_internal/Messages/state_2022-11-01_172019083263.json:recipients_editor_to": {
         "best": [
-            "auth_code",
-            null
+            "messenger",
+            "recipient"
         ],
         "primary_categories_ranked": [
             [
-                "auth_code",
-                0.7245369007190068
+                "messenger",
+                0.6031806118786335
             ],
             [
                 "profile",
-                0.7355606903632481
+                0.6702805086970329
+            ],
+            [
+                "auth_code",
+                0.693908992409706
             ],
             [
                 "ledger",
-                0.7390443719923496
+                0.7354891110211611
             ],
             [
-                "messenger",
-                0.7521907910704613
-            ],
-            [
-                "search",
-                0.7627897386749585
+                "datetime",
+                0.7585387652119
             ]
         ],
-        "secondary_categories_ranked": [],
-        "concrete_category": "auth_code",
-        "predicted_inputs": []
+        "secondary_categories_ranked": [
+            [
+                "recipient",
+                0.22014928857485452
+            ],
+            [
+                "message",
+                0.48858127184212213
+            ]
+        ],
+        "concrete_category": "recipient",
+        "predicted_inputs": [
+            "Eugene",
+            "Bob",
+            "Alice"
+        ]
     },
     "data/samsung_internal/Messages/state_2022-11-01_172019083263.json:message_edit_text": {
         "best": [
@@ -350,29 +388,29 @@
         "primary_categories_ranked": [
             [
                 "messenger",
-                0.40277175356944406
-            ],
-            [
-                "profile",
-                0.5887451320886612
+                0.3585872856279214
             ],
             [
                 "auth_code",
-                0.6151378105084101
+                0.5883877918124198
+            ],
+            [
+                "profile",
+                0.5956624791026115
             ],
             [
                 "description",
-                0.6191698213418324
+                0.639038631816705
             ],
             [
-                "tag",
-                0.7159357741475105
+                "code",
+                0.7456406561036903
             ]
         ],
         "secondary_categories_ranked": [
             [
                 "message",
-                0.2864905235668023
+                0.2861312267680963
             ],
             [
                 "recipient",
@@ -380,7 +418,11 @@
             ]
         ],
         "concrete_category": "message",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "eugene",
+            "hi",
+            "hello"
+        ]
     },
     "data/samsung_internal/Galaxy Store/state_2022-11-01_184025384712.json:name": {
         "best": [
@@ -390,23 +432,23 @@
         "primary_categories_ranked": [
             [
                 "profile",
-                0.18061378598213196
+                0.4579579561948776
             ],
             [
                 "label",
-                0.19025254746278128
-            ],
-            [
-                "description",
-                0.6701759075125058
-            ],
-            [
-                "tag",
-                0.6753056347370148
+                0.5616817131638527
             ],
             [
                 "auth_code",
-                0.6915639489889145
+                0.5699611683686574
+            ],
+            [
+                "code",
+                0.6313389840225379
+            ],
+            [
+                "numerical",
+                0.6391724020242691
             ]
         ],
         "secondary_categories_ranked": [
@@ -432,7 +474,11 @@
             ]
         ],
         "concrete_category": "name",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "Juyeon Yoon",
+            "Suhee Choi",
+            "Bob Alen"
+        ]
     },
     "data/samsung_internal/Galaxy Store/state_2022-11-01_184025384712.json:phoneNumber": {
         "best": [
@@ -442,23 +488,23 @@
         "primary_categories_ranked": [
             [
                 "numerical",
-                0.33291862408320105
+                0.35050805012385045
             ],
             [
                 "profile",
-                0.366397907336553
+                0.35076441466808317
             ],
             [
                 "device_profile",
-                0.3945015942056974
+                0.4088084084292253
             ],
             [
                 "auth_code",
-                0.5909914424022038
+                0.5042332475384076
             ],
             [
-                "messenger",
-                0.6925262448688347
+                "code",
+                0.6173713129013776
             ]
         ],
         "secondary_categories_ranked": [
@@ -476,7 +522,11 @@
             ]
         ],
         "concrete_category": "enum",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "1",
+            "2",
+            "3"
+        ]
     },
     "data/samsung_internal/Galaxy Store/state_2022-11-01_183635589137.json:coupon_edit": {
         "best": [
@@ -489,20 +539,20 @@
                 0.23850253721078235
             ],
             [
-                "profile",
-                0.6607194940249125
-            ],
-            [
                 "auth_code",
-                0.6857415040334066
+                0.4316598216692606
             ],
             [
-                "description",
-                0.7099545001983643
+                "profile",
+                0.6708712736765543
             ],
             [
                 "search",
-                0.7116057003537815
+                0.6997532206277053
+            ],
+            [
+                "tag",
+                0.7069439729054767
             ]
         ],
         "secondary_categories_ranked": [
@@ -516,7 +566,11 @@
             ]
         ],
         "concrete_category": "coupon_code",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "12345323132",
+            "123456789",
+            "1234567890"
+        ]
     },
     "data/samsung_internal/Galaxy Store/state_2022-11-01_184121181885.json:search_src_text": {
         "best": [
@@ -526,37 +580,37 @@
         "primary_categories_ranked": [
             [
                 "search",
-                0.4863956930736701
+                0.4565422600756089
             ],
             [
                 "auth_code",
-                0.6583546698093414
+                0.6467534390588601
             ],
             [
                 "profile",
-                0.6705582936604817
+                0.6647418220837911
+            ],
+            [
+                "code",
+                0.6767950259149074
             ],
             [
                 "description",
-                0.6713110655546188
-            ],
-            [
-                "messenger",
-                0.6748228818178177
+                0.6781892642378806
             ]
         ],
         "secondary_categories_ranked": [
             [
                 "app",
-                0.46913656964898115
-            ],
-            [
-                "storage",
-                0.650227287163337
+                0.48459992806116736
             ],
             [
                 "web",
                 0.6754552125930786
+            ],
+            [
+                "storage",
+                0.6795373558998108
             ],
             [
                 "video",
@@ -568,43 +622,47 @@
             ]
         ],
         "concrete_category": "app",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "battlegrounds",
+            "youtube",
+            "facebook"
+        ]
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173146572934.json:search_src_text": {
         "best": [
             "search",
-            "storage"
+            "web"
         ],
         "primary_categories_ranked": [
             [
                 "search",
-                0.4863956930736701
+                0.4556399515519539
             ],
             [
                 "auth_code",
-                0.6583546698093414
-            ],
-            [
-                "profile",
-                0.6705582936604817
+                0.6840224934120973
             ],
             [
                 "description",
-                0.6713110655546188
+                0.6893851913511753
             ],
             [
                 "messenger",
-                0.6748228818178177
+                0.7095211319625377
+            ],
+            [
+                "profile",
+                0.7201212835808594
             ]
         ],
         "secondary_categories_ranked": [
             [
-                "storage",
-                0.6980827661852042
-            ],
-            [
                 "web",
                 0.7136156621078651
+            ],
+            [
+                "storage",
+                0.7294937806824844
             ],
             [
                 "news",
@@ -619,44 +677,48 @@
                 0.758464053273201
             ]
         ],
-        "concrete_category": "storage",
-        "predicted_inputs": []
+        "concrete_category": "web",
+        "predicted_inputs": [
+            "www.naver.com",
+            "www.google.com",
+            "How to make an apple pie"
+        ]
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:forCursorEdit": {
         "best": [
             "profile",
-            "job"
+            "email"
         ],
         "primary_categories_ranked": [
             [
                 "profile",
-                0.7044692263007164
+                0.5329538544019062
             ],
             [
-                "datetime",
-                0.7122911860545476
+                "auth_code",
+                0.6228839534024397
             ],
             [
-                "numerical",
-                0.7235584110021591
+                "label",
+                0.6634875707328319
             ],
             [
                 "description",
-                0.7262003992994626
+                0.6955694658060868
             ],
             [
-                "search",
-                0.7480091825127602
+                "datetime",
+                0.6958964799841245
             ]
         ],
         "secondary_categories_ranked": [
             [
-                "job",
-                0.46180341641108197
-            ],
-            [
                 "email",
                 0.48009251927336055
+            ],
+            [
+                "job",
+                0.5335688137759765
             ],
             [
                 "company",
@@ -671,8 +733,12 @@
                 0.5785657304028671
             ]
         ],
-        "concrete_category": "job",
-        "predicted_inputs": []
+        "concrete_category": "email",
+        "predicted_inputs": [
+            "samsung3@samsung.com",
+            "asdf123@naver.com",
+            "samsung2@samsung.com"
+        ]
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:nameEdit": {
         "best": [
@@ -682,23 +748,23 @@
         "primary_categories_ranked": [
             [
                 "profile",
-                0.33281929790973663
+                0.4362713038921356
             ],
             [
                 "label",
-                0.37626677503188455
-            ],
-            [
-                "description",
-                0.6292881965637207
-            ],
-            [
-                "tag",
-                0.6896208748221397
+                0.5243905432522297
             ],
             [
                 "auth_code",
-                0.7067428007721901
+                0.5905664232869942
+            ],
+            [
+                "description",
+                0.6277309238910675
+            ],
+            [
+                "tag",
+                0.676510963588953
             ]
         ],
         "secondary_categories_ranked": [
@@ -719,43 +785,72 @@
                 0.4776834969719251
             ],
             [
-                "job",
-                0.4944368128975232
+                "department",
+                0.5355594217156371
             ]
         ],
         "concrete_category": "name",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "Juyeon Yoon",
+            "Suhee Choi",
+            "Bob Alen"
+        ]
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:editOrganizationTitle": {
         "best": [
-            "label",
-            null
+            "profile",
+            "job"
         ],
         "primary_categories_ranked": [
             [
-                "label",
-                0.4557546476523081
+                "profile",
+                0.35501793349782623
             ],
             [
-                "profile",
-                0.6003582775592804
+                "label",
+                0.41109368105729416
             ],
             [
                 "description",
-                0.6371501833200455
+                0.6332343146204948
+            ],
+            [
+                "auth_code",
+                0.6356938521067301
             ],
             [
                 "tag",
-                0.6680803522467613
-            ],
-            [
-                "music",
-                0.6937179019053776
+                0.6614325977861881
             ]
         ],
-        "secondary_categories_ranked": [],
-        "concrete_category": "label",
-        "predicted_inputs": []
+        "secondary_categories_ranked": [
+            [
+                "job",
+                0.20512947191794711
+            ],
+            [
+                "company",
+                0.3981357341011365
+            ],
+            [
+                "department",
+                0.4346286778648694
+            ],
+            [
+                "email",
+                0.4683817252516746
+            ],
+            [
+                "name",
+                0.522280290722847
+            ]
+        ],
+        "concrete_category": "job",
+        "predicted_inputs": [
+            "professor",
+            "doctor",
+            "lawyer"
+        ]
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:editOrganizationDepartment": {
         "best": [
@@ -765,23 +860,23 @@
         "primary_categories_ranked": [
             [
                 "profile",
-                0.6822151740392048
+                0.3387673964103063
             ],
             [
-                "location",
-                0.7245366399486859
-            ],
-            [
-                "description",
-                0.7359517961740494
+                "auth_code",
+                0.6424034011860688
             ],
             [
                 "label",
-                0.7704382290442784
+                0.6511546192069847
             ],
             [
-                "ledger",
-                0.7776464422543843
+                "description",
+                0.7023954436182975
+            ],
+            [
+                "location",
+                0.7087657791872819
             ]
         ],
         "secondary_categories_ranked": [
@@ -790,12 +885,12 @@
                 0.23190143518149853
             ],
             [
-                "company",
-                0.39963963845123845
+                "job",
+                0.34934670478105545
             ],
             [
-                "job",
-                0.44884149978558224
+                "company",
+                0.39963963845123845
             ],
             [
                 "email",
@@ -807,7 +902,11 @@
             ]
         ],
         "concrete_category": "department",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "mx",
+            "marketing",
+            "sales"
+        ]
     },
     "data/samsung_internal/Contacts/state_2022-11-01_173529930391.json:editOrganizationCompany": {
         "best": [
@@ -817,23 +916,23 @@
         "primary_categories_ranked": [
             [
                 "profile",
-                0.6528517603874207
+                0.32645297000805534
             ],
             [
                 "label",
-                0.7051855027675629
+                0.6109000680347283
+            ],
+            [
+                "auth_code",
+                0.6406554264326889
             ],
             [
                 "description",
-                0.7364446024099985
+                0.7027404079834619
             ],
             [
                 "location",
-                0.7429090763131778
-            ],
-            [
-                "music",
-                0.7666840900977452
+                0.7216264846424263
             ]
         ],
         "secondary_categories_ranked": [
@@ -842,12 +941,12 @@
                 0.22510106085489195
             ],
             [
-                "department",
-                0.4213582059989373
+                "job",
+                0.3436768079797427
             ],
             [
-                "job",
-                0.4571778252720832
+                "department",
+                0.4213582059989373
             ],
             [
                 "email",
@@ -859,43 +958,47 @@
             ]
         ],
         "concrete_category": "company",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "samsung",
+            "google",
+            "apple"
+        ]
     },
     "data/samsung_internal/Settings/state_2022-11-02_095831401950.json:search_src_text": {
         "best": [
             "search",
-            "storage"
+            "web"
         ],
         "primary_categories_ranked": [
             [
                 "search",
-                0.4863956930736701
+                0.4556399515519539
             ],
             [
                 "auth_code",
-                0.6583546698093414
-            ],
-            [
-                "profile",
-                0.6705582936604817
+                0.682006394614776
             ],
             [
                 "description",
-                0.6713110655546188
+                0.6893851913511753
             ],
             [
                 "messenger",
-                0.6748228818178177
+                0.7090177275240421
+            ],
+            [
+                "profile",
+                0.7127039415140946
             ]
         ],
         "secondary_categories_ranked": [
             [
-                "storage",
-                0.6951554901897907
-            ],
-            [
                 "web",
                 0.7092171261707942
+            ],
+            [
+                "storage",
+                0.7233240654071172
             ],
             [
                 "news",
@@ -910,39 +1013,56 @@
                 0.7565957879026731
             ]
         ],
-        "concrete_category": "storage",
-        "predicted_inputs": []
+        "concrete_category": "web",
+        "predicted_inputs": [
+            "www.naver.com",
+            "www.google.com",
+            "How to make an apple pie"
+        ]
     },
     "data/samsung_internal/Samsung Members/state_2022-11-02_101955202341.json:inputEditText": {
         "best": [
-            "description",
-            null
+            "device_profile",
+            "serial_number"
         ],
         "primary_categories_ranked": [
             [
-                "description",
-                0.6293511142333348
+                "device_profile",
+                0.5856691269824902
             ],
             [
                 "profile",
-                0.6313479542732239
+                0.6099524825811385
             ],
             [
-                "messenger",
-                0.6326539938648541
+                "description",
+                0.6387559418876965
+            ],
+            [
+                "numerical",
+                0.6481558022399743
             ],
             [
                 "auth_code",
-                0.6644036223491033
-            ],
-            [
-                "code",
-                0.7211897646387417
+                0.6487383762995402
             ]
         ],
-        "secondary_categories_ranked": [],
-        "concrete_category": "description",
-        "predicted_inputs": []
+        "secondary_categories_ranked": [
+            [
+                "serial_number",
+                0.47755449203153455
+            ],
+            [
+                "model_name",
+                0.5386173518685002
+            ]
+        ],
+        "concrete_category": "serial_number",
+        "predicted_inputs": [
+            "MSIP-RMM-SEC-LH65DMD",
+            "LC24B550U/XY",
+            "AF0B3CFL501325B"
+        ]
     },
     "data/samsung_internal/Samsung Members/state_2022-11-02_101839943819.json:nickname": {
         "best": [
@@ -952,23 +1072,23 @@
         "primary_categories_ranked": [
             [
                 "profile",
-                0.4415987854202588
+                0.6354260449608167
             ],
             [
                 "label",
-                0.4562401796380679
+                0.6795804861932992
             ],
             [
                 "description",
-                0.7935842126607895
-            ],
-            [
-                "tag",
-                0.7938186526298523
+                0.73734130859375
             ],
             [
                 "music",
-                0.8105711874862511
+                0.7601329476883013
+            ],
+            [
+                "tag",
+                0.7638853520154952
             ]
         ],
         "secondary_categories_ranked": [
@@ -994,43 +1114,47 @@
             ]
         ],
         "concrete_category": "username",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "samsung123",
+            "greenmon2",
+            "colddog"
+        ]
     },
     "data/samsung_internal/Gallery/state_2022-11-01_172316447819.json:search_src_text": {
         "best": [
             "search",
-            "storage"
+            "video"
         ],
         "primary_categories_ranked": [
             [
                 "search",
-                0.4863956930736701
-            ],
-            [
-                "auth_code",
-                0.6583546698093414
-            ],
-            [
-                "profile",
-                0.6705582936604817
+                0.4717918990800778
             ],
             [
                 "description",
-                0.6713110655546188
+                0.6624672248959541
+            ],
+            [
+                "auth_code",
+                0.6714304966231187
             ],
             [
                 "messenger",
-                0.6748228818178177
+                0.6794802077114582
+            ],
+            [
+                "profile",
+                0.7024153341849644
             ]
         ],
         "secondary_categories_ranked": [
             [
-                "storage",
-                0.4369484273095925
-            ],
-            [
                 "video",
                 0.4799034545818965
+            ],
+            [
+                "storage",
+                0.5821239973107973
             ],
             [
                 "web",
@@ -1041,12 +1165,16 @@
                 0.7124956989039978
             ],
             [
-                "app",
-                0.7218822029729685
+                "movie",
+                0.7265437313665947
             ]
         ],
-        "concrete_category": "storage",
-        "predicted_inputs": []
+        "concrete_category": "video",
+        "predicted_inputs": [
+            "worldcup",
+            "top pop hits",
+            "kpop"
+        ]
     },
     "data/samsung_internal/Samsung Internet/state_2022-11-01_184749322308.json:location_bar_edit_text": {
         "best": [
@@ -1056,23 +1184,23 @@
         "primary_categories_ranked": [
             [
                 "search",
-                0.44828590750694275
+                0.423888948559761
             ],
             [
                 "location",
-                0.4578999653458595
+                0.5344934381544589
             ],
             [
                 "description",
-                0.6271627793709438
+                0.5682165945569675
             ],
             [
                 "profile",
-                0.6285721510648727
+                0.6229027678569158
             ],
             [
                 "auth_code",
-                0.631089448928833
+                0.6453465859095255
             ]
         ],
         "secondary_categories_ranked": [
@@ -1082,11 +1210,11 @@
             ],
             [
                 "location",
-                0.46902297313014674
+                0.5252218618988991
             ],
             [
                 "storage",
-                0.6371780335903168
+                0.6588822851578394
             ],
             [
                 "video",
@@ -1098,7 +1226,11 @@
             ]
         ],
         "concrete_category": "web",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "www.naver.com",
+            "www.google.com",
+            "How to make an apple pie"
+        ]
     },
     "data/samsung_internal/Clock/state_2022-11-01_184421020236.json:worldclock_search_map_txt_find": {
         "best": [
@@ -1111,20 +1243,20 @@
                 0.0
             ],
             [
-                "search",
-                0.24188915888468424
+                "profile",
+                0.35945839633544285
             ],
             [
-                "profile",
-                0.34103011091550195
+                "search",
+                0.3857767196993033
             ],
             [
                 "auth_code",
-                0.5633418262004852
+                0.5902862730125586
             ],
             [
-                "messenger",
-                0.6919169723987579
+                "description",
+                0.7156446439524491
             ]
         ],
         "secondary_categories_ranked": [
@@ -1142,7 +1274,11 @@
             ]
         ],
         "concrete_category": "country",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "Korea",
+            "Algeria",
+            "Argentina"
+        ]
     },
     "data/samsung_internal/Clock/state_2022-11-01_184255456720.json:numberpicker_input": {
         "best": [
@@ -1152,23 +1288,23 @@
         "primary_categories_ranked": [
             [
                 "numerical",
-                0.43148230512936914
+                0.510179037352403
             ],
             [
                 "device_profile",
-                0.5062797615925471
+                0.5679475272695222
             ],
             [
                 "profile",
-                0.6984455312291782
+                0.6469239550332228
+            ],
+            [
+                "datetime",
+                0.6998903589944045
             ],
             [
                 "auth_code",
-                0.7613007972637812
-            ],
-            [
-                "code",
-                0.7669613262017568
+                0.716889085372289
             ]
         ],
         "secondary_categories_ranked": [
@@ -1186,7 +1322,11 @@
             ]
         ],
         "concrete_category": "enum",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "1",
+            "2",
+            "3"
+        ]
     },
     "data/samsung_internal/Clock/state_2022-11-01_184255456720.json:alarm_name": {
         "best": [
@@ -1196,23 +1336,23 @@
         "primary_categories_ranked": [
             [
                 "profile",
-                0.34984345734119415
+                0.5607384338974952
             ],
             [
                 "label",
-                0.4188860015322765
+                0.6445785898715257
             ],
             [
                 "auth_code",
-                0.6922446042299271
+                0.675404717028141
+            ],
+            [
+                "datetime",
+                0.7041572976857424
             ],
             [
                 "tag",
-                0.7287277076393366
-            ],
-            [
-                "description",
-                0.7394324534883101
+                0.7288887245580554
             ]
         ],
         "secondary_categories_ranked": [
@@ -1238,7 +1378,11 @@
             ]
         ],
         "concrete_category": "name",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "Juyeon Yoon",
+            "Suhee Choi",
+            "Bob Alen"
+        ]
     },
     "data/samsung_internal/Clock/state_2022-11-01_184455299444.json:hour": {
         "best": [
@@ -1248,23 +1392,23 @@
         "primary_categories_ranked": [
             [
                 "datetime",
-                0.6220218365391095
-            ],
-            [
-                "messenger",
-                0.7975836681822936
-            ],
-            [
-                "numerical",
-                0.8064791634678841
+                0.6452925351758797
             ],
             [
                 "profile",
-                0.8138085218767326
+                0.7443725939840078
             ],
             [
-                "code",
-                0.854511817296346
+                "numerical",
+                0.7736531011760234
+            ],
+            [
+                "messenger",
+                0.7893378137300412
+            ],
+            [
+                "auth_code",
+                0.8207746834804613
             ]
         ],
         "secondary_categories_ranked": [
@@ -1290,7 +1434,11 @@
             ]
         ],
         "concrete_category": "hour",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "14",
+            "10",
+            "1"
+        ]
     },
     "data/samsung_internal/Clock/state_2022-11-01_184455299444.json:minute": {
         "best": [
@@ -1300,23 +1448,23 @@
         "primary_categories_ranked": [
             [
                 "datetime",
-                0.6234048331777255
-            ],
-            [
-                "numerical",
-                0.7917925318082173
-            ],
-            [
-                "code",
-                0.820940254877011
+                0.6462606328229109
             ],
             [
                 "profile",
-                0.8246952978273232
+                0.7566134927173455
             ],
             [
-                "messenger",
-                0.8295440239210923
+                "numerical",
+                0.7633724590142567
+            ],
+            [
+                "description",
+                0.7907887789731223
+            ],
+            [
+                "code",
+                0.8031242116043964
             ]
         ],
         "secondary_categories_ranked": [
@@ -1342,7 +1490,11 @@
             ]
         ],
         "concrete_category": "minute",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "00",
+            "10",
+            "30"
+        ]
     },
     "data/samsung_internal/Clock/state_2022-11-01_184455299444.json:second": {
         "best": [
@@ -1352,23 +1504,23 @@
         "primary_categories_ranked": [
             [
                 "datetime",
-                0.6410585244496663
+                0.6586182167132695
             ],
             [
                 "profile",
-                0.8066932111978531
-            ],
-            [
-                "numerical",
-                0.8172386400401592
+                0.7414007841298977
             ],
             [
                 "label",
-                0.8342555928975344
+                0.7810125075280665
             ],
             [
-                "location",
-                0.8436602745205164
+                "numerical",
+                0.781184734776616
+            ],
+            [
+                "description",
+                0.8024228138849139
             ]
         ],
         "secondary_categories_ranked": [
@@ -1394,7 +1546,11 @@
             ]
         ],
         "concrete_category": "second",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "40",
+            "00",
+            "30"
+        ]
     },
     "data/samsung_internal/Clock/state_2022-11-01_184455299444.json:preset_name": {
         "best": [
@@ -1404,23 +1560,23 @@
         "primary_categories_ranked": [
             [
                 "profile",
-                0.4420238062739372
+                0.6251765569051106
             ],
             [
                 "label",
-                0.4804565000037352
-            ],
-            [
-                "numerical",
-                0.7212754885355631
-            ],
-            [
-                "tag",
-                0.734120247264703
+                0.6569336296369631
             ],
             [
                 "auth_code",
-                0.7345740174253781
+                0.7104573977490265
+            ],
+            [
+                "numerical",
+                0.7140105287233988
+            ],
+            [
+                "tag",
+                0.7238606167336303
             ]
         ],
         "secondary_categories_ranked": [
@@ -1446,7 +1602,11 @@
             ]
         ],
         "concrete_category": "name",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "Juyeon Yoon",
+            "Suhee Choi",
+            "Bob Alen"
+        ]
     },
     "data/samsung_internal/Calendar/state_2022-11-01_172842215734.json:title": {
         "best": [
@@ -1456,28 +1616,32 @@
         "primary_categories_ranked": [
             [
                 "label",
-                0.20613006750742593
-            ],
-            [
-                "profile",
-                0.60096774995327
-            ],
-            [
-                "tag",
-                0.6018371284008026
-            ],
-            [
-                "music",
-                0.6359135508537292
+                0.2421195566654205
             ],
             [
                 "description",
-                0.6595636283357937
+                0.5823156577845414
+            ],
+            [
+                "tag",
+                0.615062341094017
+            ],
+            [
+                "datetime",
+                0.6336521543562412
+            ],
+            [
+                "profile",
+                0.6458650360504786
             ]
         ],
         "secondary_categories_ranked": [],
         "concrete_category": "label",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "name1",
+            "title1",
+            "label1"
+        ]
     },
     "data/samsung_internal/Calendar/state_2022-11-01_172842215734.json:location": {
         "best": [
@@ -1487,23 +1651,23 @@
         "primary_categories_ranked": [
             [
                 "location",
-                0.20663351317246756
-            ],
-            [
-                "profile",
-                0.7066451112429302
+                0.27741306473811467
             ],
             [
                 "datetime",
-                0.7237417586147785
+                0.5857586365193128
             ],
             [
-                "label",
-                0.7356653933723767
+                "profile",
+                0.6254544630646706
             ],
             [
                 "description",
-                0.7401712561647098
+                0.6387409972647826
+            ],
+            [
+                "auth_code",
+                0.6569874236981075
             ]
         ],
         "secondary_categories_ranked": [
@@ -1521,7 +1685,12 @@
             ]
         ],
         "concrete_category": "location",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "Daejeon",
+            "meeting room",
+            "room 1",
+            "daejeon city hall"
+        ]
     },
     "data/samsung_internal/Calendar/state_2022-11-01_172842215734.json:note_text": {
         "best": [
@@ -1531,27 +1700,31 @@
         "primary_categories_ranked": [
             [
                 "description",
-                0.36422119041283924
-            ],
-            [
-                "messenger",
-                0.6279023910562198
+                0.3755759512384732
             ],
             [
                 "auth_code",
-                0.645231251915296
+                0.5629099130630493
             ],
             [
                 "profile",
-                0.6867350240548451
+                0.5822514235973358
             ],
             [
-                "code",
-                0.7157794063289961
+                "messenger",
+                0.6244500624636808
+            ],
+            [
+                "datetime",
+                0.6287125925223033
             ]
         ],
         "secondary_categories_ranked": [],
         "concrete_category": "description",
-        "predicted_inputs": []
+        "predicted_inputs": [
+            "with kaist",
+            "1201dinner",
+            "description1"
+        ]
     }
 }
